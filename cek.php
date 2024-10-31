@@ -6,22 +6,23 @@
   <body>
     <?php
 $tombol = "<a href='index.php'>kembali</a>";
-if($_POST['nama'] == "" || $_POST['email'] == "" || $_POST['alamat'] == ""){
+if($_POST['nama'] == "" || $_POST['email'] == "" || 
+$_POST['alamat'] == ""){
 
-  if($_POST['nama'] == "")
+  if($_POST['nama'] == ""){
     echo "ngaran kudu di isi. <br>";
 }
-  if($_POST['email'] == "")
+  if($_POST['email'] == ""){
     echo "email kudu di isi. <br>";
 }
-if($_POST['alamat'] == "")
+if($_POST['alamat'] == ""){
     echo "alamat kudu di isi. <br>";
 }
 echo $tombol;
 
 }else{
   ?>
-      <h2> Masukan data diri anda</h2>
+      <h2> berhasil</h2>
       <table border="1">
         <tr>
           <td>Nama</td>
