@@ -4,7 +4,7 @@
     <title>Pendaftaran</title>
   </head>
   <body>
-    <dorm method="POST">
+    <form method="POST">
 
       <h2> Masukan data diri anda</h2>
       <label>Nama</label><br>
