@@ -6,6 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>hello word</h2>
+    <h1>Hello, World!</h1>
+    
+    <?php
+    // Kode PHP ini akan dieksekusi
+    echo "<p>Tanggal hari ini: " . date("Y-m-d") . "</p>";
+    ?>
+    
+    <p>Ini adalah paragraf HTML biasa.</p>
+
+    <?php
+    // Kode PHP ini juga akan dieksekusi
+    echo "<p>Ini output dari PHP.</p>";
+    ?>
 </body>
 </html>
