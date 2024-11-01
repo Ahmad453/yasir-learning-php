@@ -1,4 +1,4 @@
-<!DOCKTYPE html>
+<!-- <!DOCKTYPE html>
 <html>
   <head>
     <title>Pendaftaran</title>
@@ -34,7 +34,7 @@ echo $tombol;
         </tr>
         <tr>
           <td>Jenis Kelamin</td>
-          <td><?php echo $_POST['jenis_kelamin']; ?></td>
+          <td><?php echo $_POST['opsi']; ?></td>
         </tr>
         <tr>
           <td>Alamat</td>
@@ -49,4 +49,4 @@ echo $tombol;
 }
 ?>
   </body>
-</html>
+</html> -->
