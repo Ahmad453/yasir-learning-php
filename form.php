@@ -14,6 +14,7 @@
         Masukan Email :<br>
         <input type="email" name="email"><br>
         <button type="submit">Simpan</button>
+        <button type="reset">Reset</button>
     </form>
     <br>
     <hr>

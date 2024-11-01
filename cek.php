@@ -1,4 +1,4 @@
-<!-- <!DOCKTYPE html>
+<!DOCKTYPE html>
 <html>
   <head>
     <title>Pendaftaran</title>
@@ -49,4 +49,4 @@ echo $tombol;
 }
 ?>
   </body>
-</html> -->
+</html>
