@@ -20,7 +20,7 @@
         $tampilUas = 'readonly value = "' . $_POST['fe_uas'] . '"' ;
     }
     ?>
-    <form method="POST">
+    <form method="POST" action="hasil.php">
     <table border="1">
     <tr>
         <td>NIM</td>
@@ -55,7 +55,7 @@
         <tr>
     </table><br>
     <button type="submit">Simpan</button>
-    <button type="button" onclick="window.location.href='http://localhost/adephp/yasir-learning-php/nilai.php'">Kunjungi Contoh</button>
+    <button type="button" onclick="window.location.href='http://localhost/new/nilai.php'">Kunjungi Contoh</button>
     </form>
     <hr/>
     <?php 
