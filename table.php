@@ -25,6 +25,7 @@ $result = $koneksi->query($query_sql);
         <td>Jumlah</td>
         <td>Grade</td>
         <td>Aksi</td>
+        <td>Edit</td>
         </tr>
         <?php 
         // for ($i = 1; $i <= 100; $i++) {
@@ -136,6 +137,7 @@ $result = $koneksi->query($query_sql);
                 <td>$jumlah</td>
                 <td>$grade</td>
                 <td><a href ="delete.php?code_nim=$nim">delete</td>
+                <td><a href ="nilai.php?get_nim=$nim&get_nama=$nama&get_quiz=$quiz&get_uts=$uts&get_uas=$uas">edit</td>
             </tr>
             HTML;
         }
